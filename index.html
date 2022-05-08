@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://kit.fontawesome.com/c04d10b9fa.js" crossorigin="anonymous"></script>
+    <title>Stoper</title>
+</head>
+<body>
+    <div class="wrapper">
+        <p class="wrapper__info">
+            <i class="fas fa-question"></i>
+            <i class="fa-solid fa-paintbrush"></i>
+        </p>
+        <div class="colors">
+            <div class="color red"></div>
+            <div class="color green"></div>
+            <div class="color blue"></div>
+        </div>
+        <h1>Stoper</h1>
+        <p class="wrapper__stopwatch">0:00</p>
+        <p class="wrapper__time">0:00</p>
+
+        <div class="wrapper__buttons">
+            <button class="start"><i class="fas fa-play"></i></button>
+            <button class="pause"><i class="fas fa-pause"></i></button>
+            <button class="stop"><i class="fas fa-stop"></i></button>
+            <button class="reset"><i class="fas fa-times"></i></button>
+            <button class="history">archiwum</button>
+        </div>
+        <ul class="wrapper__time-list">
+
+        </ul>
+    </div>
+    <div class="modal-shadow">
+        <div class="modal">
+            <h3>Instrukcja:</h3>
+            <p><i class="fas fa-play"></i> - start</p>
+            <p><i class="fas fa-pause"></i> - pauza</p>
+            <p><i class="fas fa-stop"></i> - stop</p>
+            <p><i class="fas fa-play"></i> - skasuje wszystko (łącznie z archiwum</p>
+            <p> <strong>archiwum</strong> - zobacz wcześniejsze pomiary</p>
+            <button class="close">Zamknij</button>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
